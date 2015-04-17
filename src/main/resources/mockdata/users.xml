@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Users>
+    <User>
+        <id>101</id>
+        <firstName>Vin1</firstName>
+        <lastName>Shiv1</lastName>
+        <email>vin1@email.com</email>
+        <phone>123-456-7890</phone>
+    </User>
+    <User>
+        <id>102</id>
+        <firstName>Vin2</firstName>
+        <lastName>Shiv2</lastName>
+        <email>vin2@email.com</email>
+        <phone>223-456-7890</phone>
+    </User>
+    <User>
+        <id>103</id>
+        <firstName>Vin3</firstName>
+        <lastName>Shiv3</lastName>
+        <email>vin3@email.com</email>
+        <phone>323-456-7890</phone>
+    </User>
+</Users>
