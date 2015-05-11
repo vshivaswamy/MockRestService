@@ -23,7 +23,7 @@ public class welcomeController {
     @Autowired
     private UserService userService;
     
-    @RequestMapping(value="/welcome" ,method = RequestMethod.GET)
+    @RequestMapping(value="/" ,method = RequestMethod.GET)
     public ModelAndView hello(
 	    @RequestParam(value = "name", required = false, defaultValue = "xyz.....") String name,
 	    HttpServletRequest request) throws Exception {
