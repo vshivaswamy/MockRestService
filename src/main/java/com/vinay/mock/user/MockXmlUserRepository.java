@@ -24,7 +24,7 @@ public class MockXmlUserRepository {
 	private UserResponse loadUsers() throws Exception {
 		JAXBContext context = JAXBContext.newInstance(UserResponse.class);
 		Unmarshaller un = context.createUnmarshaller();
-		Resource  resource = new ClassPathResource("mockdata/users.xml");
+		Resource  resource = new ClassPathResource(MockUserConstants.USERS_XML_FILE);
 		return (UserResponse) un.unmarshal(resource.getFile());
 	}
 

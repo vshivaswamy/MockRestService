@@ -19,7 +19,7 @@ public class MockJsonUserRepository {
 	}
 
 	private UserResponse loadUsers() throws Exception {
-		Resource  resource = new ClassPathResource("mockdata/users.json");
+		Resource  resource = new ClassPathResource(MockUserConstants.USERS_JSON_FILE);
 		return (UserResponse) new com.fasterxml.jackson.databind.ObjectMapper()
 				.readValue(resource.getFile(),
 						UserResponse.class);
